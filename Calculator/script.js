@@ -42,7 +42,9 @@ function appendNumber(number) {
 }
 
 function chooseOperation(op) {
-    if (currentOperand === '') return;
+    if (currentOperand === '') {
+        display.innerText ="Select some Operand First dude!";
+    }
     if (previousOperand !== '') {
         calculate();
     }
