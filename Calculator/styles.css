@@ -2,8 +2,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
 }
 
 body {
@@ -29,7 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f8f8f8;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background 0.2s linear;
@@ -41,7 +40,7 @@ body.dark nav {
 }
 
 #title {
-    margin: 0;
+    /* margin: 0; */
     font-size: 1.5rem;
 }
 
@@ -160,7 +159,7 @@ body.dark .made-by {
 .btn:nth-child(4n):active {
     background-color: #433f3b;
 }
-/* Media Queries */
+Media Queries */
 /* @media (max-width: 600px) {
     .calculator {
         width: 90%;
@@ -205,4 +204,4 @@ body.dark .made-by {
         padding: 18px;
         font-size: 1.4rem;
     }
-} */
+}
