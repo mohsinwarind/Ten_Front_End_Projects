@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #d6d4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+}
+
+body.dark {
+    background-color: #272930;
+    color: white;
+    
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
+}
+.container{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px ;
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+input{
+    display: block;
+    width: calc(100% - 20px);
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #4c4c4c;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background-color: #0f0e0e;
+    transition: 0.5s;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table th, .table td{
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.table th{
+    font-size: large;
+}
+.delete-btn{
+    background-color: rgb(221, 84, 84);
+    color: white;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    background-color: darkred;
+    transition: 0.5s;
+}
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input, button {
+        width: calc(100% - 10px);
+    }
+
+    .table th, .table td {
+        padding: 8px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .checkbox-label {
+        width: 40px;
+        height: 20px;
+    }
+
+    .checkbox-label .ball {
+        width: 18px;
+        height: 18px;
+        left: 1px;
+        top: 1px;
+    }
+
+    .checkbox:checked + .checkbox-label .ball {
+        transform: translateX(20px);
+    }
+
+    .table th, .table td {
+        padding: 5px;
+        font-size: small;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}

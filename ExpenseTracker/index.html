@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball"></span>
+        </label>
+    </nav>
+    <!-- The rest of the code -->
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <input type="text" id="title" placeholder="Enter the title" required>
+        <input type="number" id="amount" placeholder="Enter the amount" required>
+        <input type="date" id="date" placeholder="Enter the date" required>
+        <button onclick="addExpense()" id="addExpense">Add Expense</button> 
+    </div>
+    <div class="container">
+        <h2>Expense List</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="expense-list"></tbody>
+            
+        </table>
+        <h3>Total Amount: $<span id="total">0</span></h3>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
