@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="attempts-info">
+        <p>Correct Attempts: <span id="correct-attempts">0</span></p>
+        <p>Failed Attempts: <span id="failed-attempts">0</span></p>
+    </div>
+    <!-- Quiz 1 -->
+    <div class="container">
+        <h1>Our First Quiz</h1>
+        <h3>Your favourite Author</h3>
+        <button onclick="answer('mohsin', 'result1')">Harrai</button>
+        <button onclick="answer('random1', 'result1')">Dostovesky</button>
+        <button onclick="answer('random2', 'result1')">Camus</button>
+        <button onclick="answer('random3', 'result1')">Kafka</button>
+        <h4 id="result1"></h4>
+    </div>
+
+    <!-- Quiz 2 -->
+    <div class="container">
+        <h1>Our Second Quiz</h1>
+        <h3>What is the capital of France?</h3>
+        <button onclick="answer('paris', 'result2')">Paris</button>
+        <button onclick="answer('london', 'result2')">London</button>
+        <button onclick="answer('berlin', 'result2')">Berlin</button>
+        <button onclick="answer('madrid', 'result2')">Madrid</button>
+        <h4 id="result2"></h4>
+    </div>
+
+    <!-- Quiz 3 -->
+    <div class="container">
+        <h1>Our Third Quiz</h1>
+        <h3>Which planet is known as the Red Planet?</h3>
+        <button onclick="answer('mars', 'result3')">Mars</button>
+        <button onclick="answer('venus', 'result3')">Venus</button>
+        <button onclick="answer('jupiter', 'result3')">Jupiter</button>
+        <button onclick="answer('saturn', 'result3')">Saturn</button>
+        <h4 id="result3"></h4>
+    </div>
+
+    <!-- Quiz 4 -->
+    <div class="container">
+        <h1>Our Fourth Quiz</h1>
+        <h3>What is the chemical symbol for water?</h3>
+        <button onclick="answer('h2o', 'result4')">H2O</button>
+        <button onclick="answer('co2', 'result4')">CO2</button>
+        <button onclick="answer('o2', 'result4')">O2</button>
+        <button onclick="answer('na', 'result4')">Na</button>
+        <h4 id="result4"></h4>
+    </div>
+
+    <!-- Quiz 5 -->
+    <div class="container">
+        <h1>Our Fifth Quiz</h1>
+        <h3>Who wrote 'To Kill a Mockingbird'?</h3>
+        <button onclick="answer('harperlee', 'result5')">Harper Lee</button>
+        <button onclick="answer('marktwain', 'result5')">Mark Twain</button>
+        <button onclick="answer('ernesthemingway', 'result5')">Ernest Hemingway</button>
+        <button onclick="answer('jdsainger', 'result5')">J.D. Salinger</button>
+        <h4 id="result5"></h4>
+    </div>
+
+    <!-- Quiz 6 -->
+    <div class="container">
+        <h1>Our Sixth Quiz</h1>
+        <h3>What is the largest ocean on Earth?</h3>
+        <button onclick="answer('pacific', 'result6')">Pacific Ocean</button>
+        <button onclick="answer('atlantic', 'result6')">Atlantic Ocean</button>
+        <button onclick="answer('indian', 'result6')">Indian Ocean</button>
+        <button onclick="answer('arctic', 'result6')">Arctic Ocean</button>
+        <h4 id="result6"></h4>
+    </div>
+
+    <!-- Quiz 7 -->
+    <div class="container">
+        <h1>Our Seventh Quiz</h1>
+        <h3>Which country is known as the Land of the Rising Sun?</h3>
+        <button onclick="answer('japan', 'result7')">Japan</button>
+        <button onclick="answer('china', 'result7')">China</button>
+        <button onclick="answer('thailand', 'result7')">Thailand</button>
+        <button onclick="answer('india', 'result7')">India</button>
+        <h4 id="result7"></h4>
+    </div>
+
+    <!-- Quiz 8 -->
+    <div class="container">
+        <h1>Our Eighth Quiz</h1>
+        <h3>Who painted the Mona Lisa?</h3>
+        <button onclick="answer('davinci', 'result8')">Leonardo da Vinci</button>
+        <button onclick="answer('michelangelo', 'result8')">Michelangelo</button>
+        <button onclick="answer('picasso', 'result8')">Pablo Picasso</button>
+        <button onclick="answer('vangogh', 'result8')">Vincent van Gogh</button>
+        <h4 id="result8"></h4>
+    </div>
+
+    <!-- Quiz 9 -->
+    <div class="container">
+        <h1>Our Ninth Quiz</h1>
+        <h3>What is the smallest country in the world?</h3>
+        <button onclick="answer('vatican', 'result9')">Vatican City</button>
+        <button onclick="answer('monaco', 'result9')">Monaco</button>
+        <button onclick="answer('nauru', 'result9')">Nauru</button>
+        <button onclick="answer('sanmarino', 'result9')">San Marino</button>
+        <h4 id="result9"></h4>
+    </div>
+
+    <!-- Quiz 10 -->
+    <div class="container">
+        <h1>Our Tenth Quiz</h1>
+        <h3>Which element is said to keep bones strong?</h3>
+        <button onclick="answer('calcium', 'result10')">Calcium</button>
+        <button onclick="answer('iron', 'result10')">Iron</button>
+        <button onclick="answer('zinc', 'result10')">Zinc</button>
+        <button onclick="answer('potassium', 'result10')">Potassium</button>
+        <h4 id="result10"></h4>
+    </div>
+
+    <!-- Quiz 11 -->
+    <div class="container">
+        <h1>Our Eleventh Quiz</h1>
+        <h3>What is the hardest natural substance on Earth?</h3>
+        <button onclick="answer('diamond', 'result11')">Diamond</button>
+        <button onclick="answer('gold', 'result11')">Gold</button>
+        <button onclick="answer('iron', 'result11')">Iron</button>
+        <button onclick="answer('platinum', 'result11')">Platinum</button>
+        <h4 id="result11"></h4>
+    </div>
+
+    <!-- Quiz 12 -->
+    <div class="container">
+        <h1>Our Twelfth Quiz</h1>
+        <h3>Who developed the theory of relativity?</h3>
+        <button onclick="answer('einstein', 'result12')">Albert Einstein</button>
+        <button onclick="answer('newton', 'result12')">Isaac Newton</button>
+        <button onclick="answer('galileo', 'result12')">Galileo Galilei</button>
+        <button onclick="answer('bohr', 'result12')">Niels Bohr</button>
+        <h4 id="result12"></h4>
+    </div>
+
+    <!-- Quiz 13 -->
+    <div class="container">
+        <h1>Our Thirteenth Quiz</h1>
+        <h3>Which country is known as the Land Down Under?</h3>
+        <button onclick="answer('australia', 'result13')">Australia</button>
+        <button onclick="answer('newzealand', 'result13')">New Zealand</button>
+        <button onclick="answer('southafrica', 'result13')">South Africa</button>
+        <button onclick="answer('argentina', 'result13')">Argentina</button>
+        <h4 id="result13"></h4>
+    </div>
+
+    <!-- Quiz 14 -->
+    <div class="container">
+        <h1>Our Fourteenth Quiz</h1>
+        <h3>Which planet is the largest in our solar system?</h3>
+        <button onclick="answer('jupiter', 'result14')">Jupiter</button>
+        <button onclick="answer('saturn', 'result14')">Saturn</button>
+        <button onclick="answer('neptune', 'result14')">Neptune</button>
+        <button onclick="answer('earth', 'result14')">Earth</button>
+        <h4 id="result14"></h4>
+    </div>
+
+    <!-- Quiz 15 -->
+    <div class="container">
+        <h1>Our Fifteenth Quiz</h1>
+        <h3>What is the capital city of Australia?</h3>
+        <button onclick="answer('canberra', 'result15')">Canberra</button>
+        <button onclick="answer('sydney', 'result15')">Sydney</button>
+        <button onclick="answer('melbourne', 'result15')">Melbourne</button>
+        <button onclick="answer('brisbane', 'result15')">Brisbane</button>
+        <h4 id="result15"></h4>
+    </div>
+
+    <!-- Quiz 16 -->
+    <div class="container">
+        <h1>Our Sixteenth Quiz</h1>
+        <h3>Which element is most abundant in the Earth's crust?</h3>
+        <button onclick="answer('oxygen', 'result16')">Oxygen</button>
+        <button onclick="answer('silicon', 'result16')">Silicon</button>
+        <button onclick="answer('aluminum', 'result16')">Aluminum</button>
+        <button onclick="answer('iron', 'result16')">Iron</button>
+        <h4 id="result16"></h4>
+    </div>
+
+    <!-- Quiz 17 -->
+    <div class="container">
+        <h1>Our Seventeenth Quiz</h1>
+        <h3>Which is the longest river in the world?</h3>
+        <button onclick="answer('nile', 'result17')">Nile</button>
+        <button onclick="answer('amazon', 'result17')">Amazon</button>
+        <button onclick="answer('yangtze', 'result17')">Yangtze</button>
+        <button onclick="answer('mississippi', 'result17')">Mississippi</button>
+        <h4 id="result17"></h4>
+    </div>
+
+    <!-- Quiz 18 -->
+    <div class="container">
+        <h1>Our Eighteenth Quiz</h1>
+        <h3>Which animal is known as the King of the Jungle?</h3>
+        <button onclick="answer('lion', 'result18')">Lion</button>
+        <button onclick="answer('tiger', 'result18')">Tiger</button>
+        <button onclick="answer('elephant', 'result18')">Elephant</button>
+        <button onclick="answer('bear', 'result18')">Bear</button>
+        <h4 id="result18"></h4>
+    </div>
+
+    <!-- Quiz 19 -->
+    <div class="container">
+        <h1>Our Nineteenth Quiz</h1>
+        <h3>What is the smallest unit of life?</h3>
+        <button onclick="answer('cell', 'result19')">Cell</button>
+        <button onclick="answer('atom', 'result19')">Atom</button>
+        <button onclick="answer('molecule', 'result19')">Molecule</button>
+        <button onclick="answer('organ', 'result19')">Organ</button>
+        <h4 id="result19"></h4>
+    </div>
+
+    <!-- Quiz 20 -->
+    <div class="container">
+        <h1>Our Twentieth Quiz</h1>
+        <h3>Which is the largest land animal?</h3>
+        <button onclick="answer('elephant', 'result20')">Elephant</button>
+        <button onclick="answer('rhino', 'result20')">Rhinoceros</button>
+        <button onclick="answer('hippo', 'result20')">Hippopotamus</button>
+        <button onclick="answer('giraffe', 'result20')">Giraffe</button>
+        <h4 id="result20"></h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
