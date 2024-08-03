@@ -1,5 +1,5 @@
 const answers = {
-    "result1": ["mohsin"],
+    "result1": ["harrari"],
     "result2": ["paris"],
     "result3": ["mars"],
     "result4": ["h2o"],
