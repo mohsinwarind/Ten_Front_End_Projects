@@ -4,45 +4,45 @@ This repository contains ten front-end projects that showcase a range of web des
 
 ## Projects
 
-1. **ToDo List App**
+1. **To-do List App**
    - **Description:** A simple to-do list application where users can add tasks, mark them as completed, and delete them.
-   - **Link:** [ToDo/index.html](ToDo/index.html)
+   - **Link:** [ToDo](https://mohsinwarind.github.io/Ten_Front_End_Projects/ToDo/index.html)
 
-2. **Error Page**
-   - **Description:** A stylish error page with a modern design, indicating that the page is not found or an error has occurred.
-   - **Link:** [error.html](error.html)
+2. **Calculator**
+   - **Description:** A basic calculator that can perform arithmetic operations like addition, subtraction, multiplication, and division.
+   - **Link:** [Calculator]([Calculator/index.html](https://mohsinwarind.github.io/Ten_Front_End_Projects/Calculator/index.html))
 
-3. **Coming Soon Page**
-   - **Description:** A "Coming Soon" page with a modern design and a dark theme toggle feature, showing a message for upcoming projects.
-   - **Link:** [error.html](error.html)
+3. **Weather App**
+   - **Description:** A weather application that fetches and displays weather information based on user input for a location.
+   - **Link:** [Weather App]([WeatherApp/index.html](https://mohsinwarind.github.io/Ten_Front_End_Projects/WeatherApp/index.html))
 
-4. **Project 4**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+4. **Quiz App**
+   - **Description:** An interactive quiz application with multiple questions and answers, checking if the selected answer is correct.
+   - **Link:** [Quiz App]([Quiz_App/index.html](https://mohsinwarind.github.io/Ten_Front_End_Projects/Quiz_App/index.html))
 
-5. **Project 5**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+5. **Chat Application**
+   - **Description:** A simple chat application for real-time messaging between users.
+   - **Link:** [Chat Application](error.html)
 
-6. **Project 6**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+6. **Expense Tracker**
+   - **Description:** An application to track income and expenses, helping users manage their finances effectively.
+   - **Link:** [Expense Tracker]([ExpenseTracker/index.html](https://mohsinwarind.github.io/Ten_Front_End_Projects/ExpenseTracker/index.html))
 
-7. **Project 7**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+7. **Recipe Finder**
+   - **Description:** An application that allows users to find recipes based on ingredients they have.
+   - **Link:** [Recipe Finder](error.html)
 
-8. **Project 8**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+8. **Music Player**
+   - **Description:** A web-based music player that allows users to play, pause, and skip tracks.
+   - **Link:** [Music Player](error.html)
 
-9. **Project 9**
-   - **Description:** Details for this project will be added here.
-   - **Link:** [error.html](error.html)
+9. **Portfolio Website**
+   - **Description:** A personal portfolio website to showcase projects, skills, and experience.
+   - **Link:** [Portfolio Website](error.html)
 
-10. **Project 10**
-    - **Description:** Details for this project will be added here.
-    - **Link:** [error.html](error.html)
+10. **Blogging Platform**
+    - **Description:** A platform for users to create and publish blog posts, and interact with readers.
+    - **Link:** [Blogging Platform](error.html)
 
 ## Credits
 
